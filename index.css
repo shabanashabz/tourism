@@ -1,0 +1,223 @@
+* {
+  font-family: "Jaro", sans-serif;
+  font-weight: 400;
+  margin: 0px;
+  padding: 0px;
+}
+.main_container {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 100px;
+  width: 85%;
+  align-items: center;
+}
+ul li {
+  display: inline;
+  margin: 25px 25px;
+  list-style-type: none;
+}
+.link:hover {
+  color: black;
+}
+.link {
+  font-size: 29px;
+  font-weight: 500;
+  color: green;
+  text-decoration: none;
+}
+#last_name {
+  color: rgb(232, 166, 44);
+}
+.title {
+  margin-left: 7%;
+  margin-top: 10%;
+}
+.title h1 {
+  font-size: 62px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+.images {
+  width: 50%;
+  height: 50%;
+  position: absolute;
+  left: 70%;
+  bottom: 0px;
+  margin-top: 20px;
+  margin-bottom: 150px;
+  display: inline;
+}
+.imagegroup {
+  position: relative;
+  height: 70%;
+  bottom: 0px;
+  right: 13%;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+i {
+  color: black;
+}
+
+#about {
+  margin: 10% 5% 0px 8%;
+}
+.heading h1 {
+  font-size: 38px;
+  font-weight: 600;
+}
+.about_container {
+  width: 50%;
+  height: 50%;
+  display: contents;
+  margin-top: 1%;
+}
+.abt-img {
+  width: 80%;
+}
+.about_details p {
+  width: 60%;
+  height: 50%;
+  font-size: 18px;
+}
+.information {
+  margin-top: 20px;
+}
+.info_box {
+  margin-bottom: 2rem;
+  font-size: 20px;
+}
+.info_box span {
+  margin-left: 15px;
+}
+#contact {
+  margin: 8% 8% 0px 8%;
+}
+
+#rooms {
+  width: 80%;
+  height: 90%;
+  margin: 22% 20%;
+}
+.room1 {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  column-gap: 50px;
+  margin-top: 4%;
+  /* width: 90%;
+  height: 90%; */
+}
+.heading .roomii {
+  text-align: center;
+  font-size: 50px;
+}
+#imagesgroup {
+  width: 1200px;
+  height: 500px;
+  margin-bottom: 40px;
+  display: inline;
+}
+.roomii {
+  margin-right: 800px;
+  padding: 10px;
+}
+.roomis {
+  margin: 19% 5% 0px 25%;
+  animation-name: example3;
+  animation-duration: 5s;
+  /* margin-top: 250px; */
+  animation-iteration-count: infinite;
+}
+@keyframes example3 {
+  0% {
+    /* margin-top: -150px; */
+    margin-right: 0px;
+  }
+  25% {
+    /* margin-top: -150px; */
+    margin-left: 200px;
+  }
+  50% {
+    /* margin-top: 200px; */
+    margin-right: 700px;
+  }
+  75% {
+    /* margin-top: 200px; */
+    margin-left: 100px;
+  }
+  100% {
+    /* margin-top: 50px; */
+    margin-right: 0px;
+  }
+}
+
+.roomis a {
+  font-size: 50px;
+  text-decoration: none;
+  color: black;
+}
+.roomis a:hover {
+  background-image: linear-gradient(to bottom right, yellow, rgb(29, 132, 50));
+  padding: 5px;
+  border-radius: 9px;
+  color: white;
+}
+#contact {
+  margin: 2% 8% 0px 8%;
+}
+.icon-set {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3%;
+}
+.icon {
+  height: 50px;
+  width: 50px;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 10px;
+  border-radius: 50%;
+  display: flex;
+}
+.icon i {
+  color: black;
+  font-size: 30px;
+}
+.icon:hover {
+  background-image: linear-gradient(to bottom right, yellow, rgb(29, 132, 50));
+}
+.icon:hover i {
+  color: white;
+  animation: shake 0.75s;
+}
+@keyframes shake {
+  10% {
+    transform: rotate(15deg);
+  }
+  20% {
+    transform: rotate(-15deg);
+  }
+  30% {
+    transform: rotate(15deg);
+  }
+  40% {
+    transform: rotate(-15deg);
+  }
+}
+footer {
+  margin: 3rem 0px;
+}
+footer p {
+  text-align: center;
+  font-weight: 600;
+  /* padding: 1%; */
+}
+html {
+  scroll-behavior: smooth;
+}
